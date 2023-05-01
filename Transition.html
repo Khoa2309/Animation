@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>Khoa</title>
+    <link rel="stylesheet" href="demo.css">
+    <!-- <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?fa    mily=Sofia&effect=fire"> -->
+</head>
+
+<body>
+    <a href="#" class="button" onclick="myFunction_get()">Get var</a>
+    <button class="button" onclick="myFunction_set()">Change var</button>
+    <input type="button" class="button" value="Input Button">
+    <h2 style="clear: both;">Image Modal</h2>
+    <div class="bt">
+        <button class="button1">PUSH</button>
+        <img src="TH.png" alt="Thanh Toan Truc Tuyen" id="myImg">
+    </div>
+
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+    <script src="demo.js"></script>
+
+    <svg width="800" height="400">
+        <mask id="svgmask1">
+          <polygon fill="#ffffff" points="200 0, 400 400, 0 400"></polygon>
+        </mask>
+        <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="TH.png" mask="url(#svgmask1)"></image>
+    </svg>
+</body>
+
+</html>
